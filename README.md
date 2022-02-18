@@ -15,12 +15,12 @@ passwd |  se usa para cambiar la contraseña de un usuario  |  Su sintaxis es de
 useradd |   crear usuarios desde el terminal. |  useradd [options] nombre_de_usuario |
 mv |  para mover o cambiar el nombre de archivos y directorios  |  Para mover file_1.txt del directorio actual a otro directorio: $ mv file_1.txt /home/pungki/office  |
 rm |  Se usa para eliminar archivos  |   [code] rm myfile.txt [/code]Elimina el archivo myfile.txt. Si el archivo está protegido contra escritura, te pedirá que confirmes que realmente deseas eliminarlo. | 
-rm -R |  b  |  c |
-Recursive |  b  |  c |
-history |  b  |  c |
-ls -l |  b  |  c |
-Deb |  b  |  c |
-apt install neofetch |  b  |  c |
+rm -R |  Como rm es un comando muy destructivo, es posible que elimine accidentalmente archivos importantes. La buena noticia es que rm tiene un indicador -i que le pide (para confirmar) antes de eliminar cada archivo.  |   digamos que desea eliminar el archivo. hello.txt pero desea que rm le pida que confirme la operación de eliminación del archivo.
+|
+history |  para averiguar los últimos comandos que se han ejecutado en un Servidor  |  para verificar ultimos 25 comandos: # history 25  |
+ls -l |  función principal es la de listar ficheros y directorios, por defecto alfabéticamente.  | Listar el directorio actual, el directorio Descargas y el directorio /usr/localls . Descargas/ /usr/local |
+Deb |  Permite la instalación de paquetes RPM  |  sudo dpkg -i google-chrome-stable_current_amd64.deb |
+ neofetch |  Neofetch es un programa de información del sistema CLI escrita en BASH, este muestra la información sobre el sistema junto a una imagen  |  sudo add-apt-repository. |
 a |  b  |  c |
 a |  b  |  c |
 a |  b  |  c |
