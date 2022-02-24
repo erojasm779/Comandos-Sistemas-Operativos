@@ -20,14 +20,12 @@ history |  para averiguar los últimos comandos que se han ejecutado en un Servi
 ls -l |  función principal es la de listar ficheros y directorios, por defecto alfabéticamente.  | Listar el directorio actual, el directorio Descargas y el directorio /usr/localls . Descargas/ /usr/local |
 Deb |  Permite la instalación de paquetes RPM  |  sudo dpkg -i google-chrome-stable_current_amd64.deb |
  neofetch |  Neofetch es un programa de información del sistema CLI escrita en BASH, este muestra la información sobre el sistema junto a una imagen  |  sudo add-apt-repository. |
-screenfetch|  b  |  c |
-apt install  |  b  |  c |
-Snap |  b  |  c |
-sudo apt update |  b  |  c |
-sudo apt install  |  b  |  c |
-snapd |  b  |  c |
-snap find |  b  |  c |
-sudo snap install |  b  |  c |
+screenfetch|  Screenfetch es una herramienta de información Bash Screenshot. Este práctico script Bash, desarrollado por Brett Bohnenkamper y de código abierto, se utiliza para generar una ingeniosa ficha que provee información sobre la distribución que se está usando, donde nos imprimirá por consola datos como: el tema del terminal, versión del kernel, el entorno de escritorio, CPU, RAM, y logotipos según la distribución en ASCII.  |  sudo apt-get install screenfetch |
+apt install  |  Este comando se usa para instalar la versión más nueva de todos los paquetes instalados en el sistema. Los paquetes instalados con una nueva versión disponible se descargan y actualizan, y bajo ninguna circunstancia se desinstalarán paquetes, o se instalarán paquetes nuevos.  | En este ejemplo procedimos a instalar el servidor DNS bind9 de la siguiente manera: apt-get install bind9  |
+Snap |  El comando snap es equivalente al comando apt, pero puede usarlo para instalar software desde la Snap Store, en lugar de paquetes desde los repositorios Apt.  |  sudo snap install snapcraft --classic |
+sudo apt update |  Apt-get update sirve para actualizar los repositorios que definimos en el archivo /etc/apt/sources.list. Se actualizan los listados de paquetes disponibles en las fuentes definidas en el archivo sources.list, pero no instala nada. Lo que hace es ver si hay nuevas versiones de los paquetes que tenemos en las fuentes definidas, pero sin modificar nada en nuestro sistema.  |  sudo apt-get upgrade |
+snap find |  El software Snap son paquetes independientes con todas las bibliotecas dependientes incluidas, lo que hace que la instalación sea mucho más sencilla. Como los paquetes están en contenedores, las aplicaciones se aíslan y los cambios no afectarán a otros sistemas.  |  $ sudo apt install snapd |
+sudo snap install | gestionar e instalar aplicaciones en Ubuntu.   |  Para hacer la instalación, el proceso es sencillo, sólo se ha de escribir : sudo snap install «nombre paquete» y se procederá a la instalación de dicho programa. Algo sencillo que tienen las últimas versiones de Ubuntu, las versiones más viejas u otras distribuciones tienen que instalar snap o snapcraft primero para que funcione. |
 a |  b  |  c |
 a |  b  |  c |
 a |  b  |  c |
