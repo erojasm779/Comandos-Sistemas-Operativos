@@ -20,8 +20,19 @@ history |  para averiguar los últimos comandos que se han ejecutado en un Servi
 ls -l |  función principal es la de listar ficheros y directorios, por defecto alfabéticamente.  | Listar el directorio actual, el directorio Descargas y el directorio /usr/localls . Descargas/ /usr/local |
 Deb |  Permite la instalación de paquetes RPM  |  sudo dpkg -i google-chrome-stable_current_amd64.deb |
  neofetch |  Neofetch es un programa de información del sistema CLI escrita en BASH, este muestra la información sobre el sistema junto a una imagen  |  sudo add-apt-repository. |
+screenfetch|  b  |  c |
+apt install  |  b  |  c |
+Snap |  b  |  c |
+sudo apt update |  b  |  c |
+sudo apt install  |  b  |  c |
+snapd |  b  |  c |
+snap find |  b  |  c |
+sudo snap install |  b  |  c |
 a |  b  |  c |
 a |  b  |  c |
 a |  b  |  c |
 a |  b  |  c |
+a |  b  |  c |
+a |  b  |  c |
+ 
  
