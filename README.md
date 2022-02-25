@@ -26,11 +26,10 @@ Snap |  El comando snap es equivalente al comando apt, pero puede usarlo para in
 sudo apt update |  Apt-get update sirve para actualizar los repositorios que definimos en el archivo /etc/apt/sources.list. Se actualizan los listados de paquetes disponibles en las fuentes definidas en el archivo sources.list, pero no instala nada. Lo que hace es ver si hay nuevas versiones de los paquetes que tenemos en las fuentes definidas, pero sin modificar nada en nuestro sistema.  |  sudo apt-get upgrade |
 snap find |  El software Snap son paquetes independientes con todas las bibliotecas dependientes incluidas, lo que hace que la instalación sea mucho más sencilla. Como los paquetes están en contenedores, las aplicaciones se aíslan y los cambios no afectarán a otros sistemas.  |  $ sudo apt install snapd |
 sudo snap install | gestionar e instalar aplicaciones en Ubuntu.   |  Para hacer la instalación, el proceso es sencillo, sólo se ha de escribir : sudo snap install «nombre paquete» y se procederá a la instalación de dicho programa. Algo sencillo que tienen las últimas versiones de Ubuntu, las versiones más viejas u otras distribuciones tienen que instalar snap o snapcraft primero para que funcione. |
-a |  b  |  c |
-a |  b  |  c |
-a |  b  |  c |
-a |  b  |  c |
-a |  b  |  c |
+Dir |  el comando dir enumera los archivos y carpetas en columnas, ordenados verticalmente y los caracteres especiales están representados por secuencias de escape con barra invertida  |  1. Opción -a o –todos: Muestra todos los archivos ocultos (comenzando con `.`) junto con dos archivos indicados por` .` ​​y `..` que indican el directorio actual y el anterior respectivamente. |
+mkdir |   El comando mkdir es la herramienta ideal para crear nuevos directorios en nuestro sistema de archivos  c |
+Flatpack |  b  |  [code] mkdir [ -m = mode ] [ -p ] [ -v ] [ -Z = context ] directorio [ directorio …] [/code] |
+ip addr |  El comando ip addr list vendría a ser lo mismo que ejecutar ifconfig. Se puede ejecutar con el mismo resultado como ip address show o ip address list  |  ara habilitar o deshabilitar una interfaz de red seguiremos utilizando ip link: ip addr list eth2 |
 a |  b  |  c |
  
  
