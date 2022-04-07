@@ -30,6 +30,26 @@ Dir |  el comando dir enumera los archivos y carpetas en columnas, ordenados ver
 mkdir |   El comando mkdir es la herramienta ideal para crear nuevos directorios en nuestro sistema de archivos  c |
 Flatpack |  b  |  [code] mkdir [ -m = mode ] [ -p ] [ -v ] [ -Z = context ] directorio [ directorio …] [/code] |
 ip addr |  El comando ip addr list vendría a ser lo mismo que ejecutar ifconfig. Se puede ejecutar con el mismo resultado como ip address show o ip address list  |  ara habilitar o deshabilitar una interfaz de red seguiremos utilizando ip link: ip addr list eth2 |
+ mkdir|   herramienta ideal para crear nuevos directorios en nuestro sistema de archivos.|  [code] mkdir Documents / directorio [/code] |
+mv |   Se utiliza para mover archivos y directorios de una ubicación a otra | mv [OPCION… [-T] ORIGEN DESTINO  | 
+ cp |  sirve para copiar un archivo o carpeta trabajando en la línea de comandos.  |  cp fichero1 fichero2 |
+scp  | copia archivos o directorios entre un sistema local y un sistema remoto, o entre dos sistemas remotos    |  scp mars:/var/tmp/testdir/letter.txt   |
+curl | Es un comando disponible en la mayoría de los sistemas basados en Unix. Es una abreviatura de «Client URL». Los comandos de Curl están diseñados para funcionar como una forma de verificar la conectividad a las URL y como una gran herramienta para transferir datos   | curl testdomain.com  |
+git clone |  Clona un repositorio en un nuevo directorio  |  git clone https://github.com/libgit2/libgit2 |
+wget |  Puedes usarlo para recuperar contenido y archivos de varios servidores web.   |  wget https://wordpress.org/latest.zip |
+head |   Se utiliza para mostrar información, si lo usamos sin parámetros, de las 10 primeras líneas de un archivo en la salida estándar.  También se puede utilizar para mostrar información de varios ficheros a la vez. |  head -n 20 /var/log/messages |
+tail |   se utiliza para mostrar las últimas líneas de un archivo (de texto) o para restringir la salida de un comando de Linux a un ámbito concreto. |  tail [parámetros] <archivos> |
+ less|   se utiliza para ver el contenido de un archivo o la salida de un comando, una página a la vez |  less [OPTIONS] nome_file |
+more |   te permite mostrar el resultado de la ejecución de un comando en la terminal de a una página a la vez |  ps -ef | more |
+find |  comando para buscar y encontrar archivos en Linux  |  find . <search_parameter> |
+locate |  comando para buscar y encontrar archivos en Linux  |  locate [my-file] |
+updatedb  |   crea o actualiza una base de datos utilizada por localizar |  sudo updatedb -e /usr/share, /var/lib |
+ grep |   Este busca un patrón que definamos en un archivo de texto. En otras palabras, con grep en Linux puedes buscar una palabra o patrón y se imprimirá la línea o líneas que la contengan  |  grep [opciones] pattern [ARCHIVO] |
+ a |  b  |  c |
+ a |  b  |  c |
+  a |  b  |  c |
+  a |  b  |  c |
+ a |  b  |  c |
 a |  b  |  c |
- 
- 
+a |  b  |  c |
+ a |  b  |  c |
