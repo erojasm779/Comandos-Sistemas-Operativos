@@ -45,11 +45,11 @@ find |  comando para buscar y encontrar archivos en Linux  |  find . <search_par
 locate |  comando para buscar y encontrar archivos en Linux  |  locate [my-file] |
 updatedb  |   crea o actualiza una base de datos utilizada por localizar |  sudo updatedb -e /usr/share, /var/lib |
  grep |   Este busca un patrón que definamos en un archivo de texto. En otras palabras, con grep en Linux puedes buscar una palabra o patrón y se imprimirá la línea o líneas que la contengan  |  grep [opciones] pattern [ARCHIVO] |
- a |  b  |  c |
- a |  b  |  c |
-  a |  b  |  c |
-  a |  b  |  c |
- a |  b  |  c |
-a |  b  |  c |
-a |  b  |  c |
- a |  b  |  c |
+ nmap |  es la mejor herramienta de línea de comandos en Linux (también disponible para Windows y Mac OS X) para realizar funciones de auditoría y seguridad de redes, rastreo y análisis en busca de sistemas para elaborar un inventario de red  |  Usage: nmap [Scan Type(s)] [Options] {target specification} |
+ ip addr |  Para saber nuestra IP en Linux  |  ip addr |
+  netstat |  es una herramienta de línea de comandos que muestra las conexiones de red (entrantes y salientes), tablas de enrutamiento y una serie de estadísticas de interfaz de red.  |  netstat -help |
+  df -h |  se utiliza para obtener un resumen completo del uso del espacio de disco disponible y utilizado del sistema de archivos en el sistema Linux.  |  df [OPTIONS]... FILESYSTEM... |
+ sudo fdisk -l |  b  |  c |
+dd |   es una herramienta sencilla, útil, y sorprendentemente fácil de usar; con esta herramienta se puede hacer lo mismo, sobre dispositivos: discos y particiones, que con programas comerciales como Norton Ghost, en Windows o libres como CloneZilla, en Linux, con solo una pequeña línea de comandos.  |  sudo dd if=origen of=destino |
+ffmpeg |  b  |  c |
+ fdupes |  b  |  c |
