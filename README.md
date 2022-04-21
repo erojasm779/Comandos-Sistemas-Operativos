@@ -51,5 +51,3 @@ updatedb  |   crea o actualiza una base de datos utilizada por localizar |  sudo
   df -h |  se utiliza para obtener un resumen completo del uso del espacio de disco disponible y utilizado del sistema de archivos en el sistema Linux.  |  df [OPTIONS]... FILESYSTEM... |
  sudo fdisk -l |  b  |  c |
 dd |   es una herramienta sencilla, útil, y sorprendentemente fácil de usar; con esta herramienta se puede hacer lo mismo, sobre dispositivos: discos y particiones, que con programas comerciales como Norton Ghost, en Windows o libres como CloneZilla, en Linux, con solo una pequeña línea de comandos.  |  sudo dd if=origen of=destino |
-ffmpeg |  b  |  c |
- fdupes |  b  |  c |
